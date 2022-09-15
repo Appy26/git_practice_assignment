@@ -6,7 +6,7 @@ let rev="";
 for(let i=0; i<=N-1; i++){
   rev =str[i]+rev;
 }
-if(str!=rev){
+if(str==rev){
   console.log('Palindrome')
 }else{ 
   console.log('Not a Palindrome')
